@@ -1,0 +1,41 @@
+img[title="photo"]{
+
+    border: 2px solid black;
+
+}
+
+.container
+{
+    border: 1px solid red;
+    height: 300px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content:start;
+    align-items: stretch;
+}
+
+.box
+{
+    border: 1px solid black;
+    width: 150px;
+    /* background-color: rgb(202, 176, 227); */
+    background-image: url("../images/camera.jpg");
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
+
+#box1
+{
+    flex-grow: 2;
+}
+
+#box2
+{
+   flex-grow: 1;
+}
+
+#box3
+{
+    flex-shrink: 2;
+}

@@ -1,0 +1,22 @@
+.box
+{
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+
+#box1
+{
+    word-spacing: 25px;
+}
+
+#box2
+{
+    word-spacing: 25px;
+}
+
+#box3
+{
+    word-spacing: 25px;
+}

@@ -1,0 +1,35 @@
+.para
+{
+    background-color: aquamarine;
+}
+
+.para span
+{
+   background-color: rgb(219, 133, 20); 
+   display:inline-block;
+
+}
+
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    margin: 12px;
+    display: inline-block;
+}
+
+.container
+{
+    background-color: bisque;
+    margin:40px 60px;
+    box-shadow: 10px 10px 10px 2px rgb(229, 226, 226);
+}
+
+h1
+{
+    color: rgb(101, 71, 14);
+    text-align: center;
+    text-shadow: 0px 0px 3px rgb(208, 158, 158);
+}
